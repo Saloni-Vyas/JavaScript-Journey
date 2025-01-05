@@ -1,0 +1,17 @@
+In JavaScript, let, const, and var are used to declare variables. Here's a breakdown of their differences and use cases:
+
+1. var
+Scope: Function-scoped. A variable declared with var is accessible within the function it is declared, or globally if declared outside a function.
+Hoisting: Variables declared with var are hoisted to the top of their scope but are undefined until the code execution reaches the declaration.
+Redeclaration: Can be redeclared within the same scope without errors
+
+2. let
+Scope: Block-scoped. A variable declared with let is accessible only within the block it is declared.
+Hoisting: Variables declared with let are hoisted, but they remain in a "temporal dead zone" (TDZ) until the code execution reaches the declaration. Accessing them before declaration causes a ReferenceError.
+Redeclaration: Cannot be redeclared in the same scope.
+
+3. const
+Scope: Block-scoped, like let.
+Hoisting: Similar to let, const is hoisted but remains in the temporal dead zone until the declaration.
+Redeclaration: Cannot be redeclared in the same scope.
+Reassignment: Cannot be reassigned. However, if the const variable holds an object or array, the contents of the object or array can be modified.
