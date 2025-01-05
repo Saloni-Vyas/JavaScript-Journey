@@ -1,0 +1,50 @@
+When "use strict" is used :
+
+Some previously accepted practices are disallowed.
+Some silent errors are turned into explicit errors.
+It helps you write cleaner, more secure, and better-performing code.
+
+Benefits of use strict :
+Catches Common Coding Errors: Helps identify issues early in development.
+Improves Performance: Some optimizations are easier for JavaScript engines in strict mode.
+Future-Proofing: Prevents use of features that are reserved for future JavaScript versions.
+
+Best Practices :
+Use "use strict" at the top of your JavaScript files or functions.
+It is automatically enabled in ES6 modules (import/export) and classes, so you don’t need to explicitly declare it there.
+
+Primitive Data Types -
+Primitive types are immutable and represent single values.
+1. undefined
+Represents a variable that has been declared but not assigned a value.
+Default value of uninitialized variables.
+2. null
+Represents the intentional absence of any object value.
+Often used to signify "no value."
+3. boolean
+Represents a logical entity with two possible values: true or false.
+4. number
+Represents both integer and floating-point numbers.
+Includes special values:
+Infinity: Result of dividing a number by zero.
+-Infinity: Result of dividing a negative number by zero.
+NaN (Not-a-Number): Result of invalid mathematical operations.
+5. bigint
+Represents integers with arbitrary precision.
+Useful for handling numbers beyond the safe integer limit of Number (2^53 - 1).
+Declared by appending n to the integer.
+6. string
+Represents a sequence of characters.
+Enclosed in single quotes ('), double quotes ("), or backticks (` for template literals).
+7. symbol
+Represents a unique and immutable value, often used as object property keys.
+
+Object Data Types -
+Objects are mutable and can store collections of data and more complex entities.
+1. Object
+A collection of key-value pairs.
+2. Array
+A special type of object for storing ordered lists of items.
+3. Function
+A callable block of reusable code.
+
