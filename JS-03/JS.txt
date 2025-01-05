@@ -1,0 +1,10 @@
+
+In JavaScript, comparison of data types can be tricky because of type coercion and the differences between strict (===) and loose (==) equality. Here's an overview of how different data types behave during comparisons:
+
+1. Strict Equality (===)
+Compares both value and type.
+No type coercion is performed.
+
+2. Loose Equality (==)
+Compares value only, after performing type coercion.
+Converts operands to the same type before comparison.
