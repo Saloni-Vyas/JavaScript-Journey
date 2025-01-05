@@ -1,0 +1,19 @@
+In JavaScript, memory management involves two types of memory: stack and heap. These terms refer to the way memory is allocated and managed for variables, functions, and objects during program execution.
+
+1. Stack Memory
+Definition
+The stack is a region of memory that operates in a Last-In-First-Out (LIFO) manner.
+It is used to store primitive values (e.g., number, string, boolean) and function calls (execution contexts).
+Characteristics
+Fast Access: Operations like allocation and deallocation are quick because of the LIFO structure.
+Size Limit: The stack has a fixed size, and trying to allocate too much memory may result in a stack overflow.
+Automatically Managed: Memory in the stack is automatically freed when variables go out of scope.
+
+2. Heap Memory
+Definition
+The heap is a region of memory used for storing objects and functions that require dynamic allocation.
+It is not structured (unlike the stack) and allows storing large or complex data structures.
+Characteristics
+Dynamic Size: The heap has no strict size limit (depends on system memory).
+Slower Access: Allocation and deallocation take longer than in the stack.
+Garbage Collection: JavaScript's garbage collector automatically frees memory in the heap that is no longer reachable.
