@@ -1,0 +1,35 @@
+Objects in JavaScript
+An object is a collection of key-value pairs where keys (also called properties) are strings (or symbols), and values can be any data type. Objects are a fundamental data type in JavaScript used to model real-world entities.
+
+1. Creating Objects
+Object Literal (most common):
+Using new Object():
+Using a Constructor Function:
+Using Classes:
+
+2. Accessing Properties
+Dot Notation:
+Bracket Notation (useful for dynamic keys):
+
+3. Adding or Updating Properties
+
+4. Deleting Properties
+
+5. Checking Properties
+
+6. Iterating Over Properties
+
+7. Methods in Objects
+Objects can have functions as properties, called methods
+
+8. Nested Objects
+Objects can contain other objects:
+
+9. Object Shorthand and Destructuring
+ Property Shorthand:
+ Destructuring:
+
+
+Objects are mutable and are compared by reference, not by value.
+Use Object.freeze(obj) to make an object immutable.
+Objects are a core feature of JavaScript and form the basis of complex data structures like classes and prototypes.
