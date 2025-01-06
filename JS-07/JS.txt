@@ -1,0 +1,16 @@
+In JavaScript, the Date object is used to work with dates and times. It provides methods to create, manipulate, and format dates and times.
+
+1. Creating Dates
+Using the Date Constructor
+
+Current Date and Time:
+let now = new Date();
+console.log(now); // Outputs current date and time
+
+Specific Date and Time:
+let specificDate = new Date("2025-01-05T10:00:00");
+console.log(specificDate); // Sun Jan 05 2025 10:00:00 GMT+...
+
+Using Date Components:
+let date = new Date(2025, 0, 5, 10, 30, 0); // Year, Month (0-indexed), Day, Hours, Minutes, Seconds
+console.log(date); // Sun Jan 05 2025 10:30:00
