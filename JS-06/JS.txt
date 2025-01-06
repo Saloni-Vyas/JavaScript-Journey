@@ -1,0 +1,37 @@
+In JavaScript, numbers are a fundamental data type used to represent numeric values. JavaScript uses a single number type to represent all numbers, whether integers or floating-point values. Here's an in-depth look at numbers in JavaScript:
+
+1. Representing Numbers in JavaScript
+
+Integers:
+Whole numbers, positive or negative.
+
+Floating-Point Numbers:
+Numbers with decimal points.
+
+Special Numeric Values:
+Infinity: Represents a value larger than the largest representable number
+Infinity: Represents a value smaller than the smallest representable number.
+NaN (Not-a-Number): Represents an invalid number result (e.g., dividing zero by zero).
+
+BigInt
+Introduced in ES2020, BigInt is used for representing arbitrarily large integers.
+Use the suffix n or the BigInt constructor:
+
+
+
+Type Coercion with Numbers :
+
+Implicit Coercion-
+JavaScript often converts strings and booleans to numbers in certain operations
+console.log("5" - 1); // 4
+console.log("5" + 1); // "51" (string concatenation)
+console.log(true + 1); // 2
+console.log(null + 1); // 1
+console.log(undefined + 1); // NaN
+
+Explicit Coercion-
+Use Number(), parseInt(), or parseFloat() to convert types explicitly:
+console.log(Number("42")); // 42
+console.log(parseFloat("3.14")); // 3.14
+
+
