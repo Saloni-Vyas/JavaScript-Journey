@@ -1,0 +1,10 @@
+OBJECT DESTRUCTION - 
+In JavaScript, object destruction refers to the process of breaking down objects into their individual properties and assigning them to variables using a concise syntax. This is achieved through destructuring assignment.
+
+Destructuring makes the code more concise and readable, especially when dealing with objects that have multiple properties.
+
+1. Basic Object Destructuring
+2. Renaming Variables
+3. Default Values
+4. Nested Object Destructuring
+5. Function Parameters with Destructuring
