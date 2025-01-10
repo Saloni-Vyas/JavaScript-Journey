@@ -1,0 +1,10 @@
+// FUNCTION AND PARAMETER 
+In JavaScript, a function is a reusable block of code that performs a specific task. Functions can take parameters as input, process them, and optionally return a value.
+
+Function: A block of code designed to perform a specific task.
+
+Parameters: Placeholders in a function that accept values (called arguments) when the function is called.
+
+1. Function with a Single Parameter
+2. Default Parameter
+3. Arrow Function 
