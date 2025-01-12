@@ -1,0 +1,25 @@
+
+Immediately Invoked Function Expressions (IIFE) in JavaScript :
+
+An Immediately Invoked Function Expression (IIFE) is a JavaScript function that is executed immediately after it is defined. It is a design pattern used to create a private scope, avoid polluting the global namespace, and initialize code
+
+Syntax of IIFE: 
+Basic Syntax
+An IIFE is created by wrapping a function inside parentheses and immediately invoking it:
+
+Using an Arrow Function (ES6+)
+
+Features of IIFE -
+Self-execution: Runs as soon as it is defined.
+Private Scope: Variables and functions inside an IIFE are not accessible from the outside, preventing namespace pollution.
+Anonymous or Named: IIFE can be anonymous or named, but the name (if provided) is not accessible outside its scope.
+
+Advantages of IIFE - 
+Encapsulates variables and avoids polluting the global scope.
+Provides a clean way to initialize code.
+Helps implement modular programming.
+
+Summary-
+IIFE: Functions that execute immediately after being defined.
+Syntax: (function() { ... })(); or (() => { ... })();
+Purpose: Private scope, namespace management, and initialization.
