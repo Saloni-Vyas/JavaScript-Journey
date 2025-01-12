@@ -1,0 +1,18 @@
+
+THIS and arrow function - 
+
+In JavaScript, the behavior of the this keyword differs depending on how a function is defined and called. The introduction of arrow functions in ES6 brought a significant change to how this is handled, making it easier to work with in certain scenarios.
+
+this Keyword in JavaScript :
+Definition: The this keyword refers to the object that is executing the current function.
+The value of this depends on how the function is called:
+In a Method: this refers to the object the method belongs to.
+In a Regular Function: this refers to the global object (or undefined in strict mode).
+In an Arrow Function: this is lexically bound and inherits from the surrounding context
+
+Arrow Functions and this
+Arrow functions do not have their own this. Instead, they inherit this from their surrounding lexical context.
+
+Regular functions have their own this, which can change depending on the call context.
+Arrow functions inherit this from their enclosing lexical scope, making them ideal for callbacks and preserving the context in nested functions.
+Use arrow functions when you need this to refer to the surrounding scope, and regular functions when this needs to be dynamic.
