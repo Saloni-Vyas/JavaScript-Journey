@@ -1,0 +1,64 @@
+Control Flow in JavaScript :
+Control flow refers to the order in which the code in a program is executed. JavaScript executes code from top to bottom by default, but control flow structures allow you to alter this order to handle decision-making, looping, and error handling.
+
+1. Sequential Flow -
+By default, JavaScript executes statements one after another, from top to bottom.
+
+2. Conditional Statements -
+Control flow can change based on conditions.
+
+if Statement
+Executes a block of code if a condition is true.
+
+if-else Statement
+Executes one block of code if a condition is true, and another block if it is false.
+
+if-else if-else Statement
+Handles multiple conditions.
+
+2. Switch Statement -
+A cleaner way to compare a single value against multiple cases.
+
+3. Loops -
+Loops allow repeated execution of code blocks based on a condition.
+
+for Loop
+Used when the number of iterations is known.
+
+while Loop
+Executes as long as a condition is true.
+
+do-while Loop
+Executes at least once, even if the condition is false.
+
+for...of Loop
+Iterates over iterable objects like arrays.
+
+for...in Loop
+Iterates over the properties of an object.
+
+4. Error Handling -
+Used to handle exceptions and maintain control flow during errors.
+
+try-catch
+Executes code in the try block, and if an error occurs, the catch block handles it.
+
+try-catch-finally
+The finally block always executes, regardless of whether an error occurred.
+
+5. Jump Statements -
+break
+Exits a loop or switch statement.
+
+continue
+Skips the current iteration and continues with the next.
+
+6. Function Calls:
+Functions can be invoked to transfer control to reusable blocks of code.
+
+
+Control flow determines the order of execution in a JavaScript program.
+Use conditionals (if, switch) for decision-making.
+Use loops (for, while, do...while) for repetition.
+Use error-handling constructs (try...catch) to manage exceptions.
+Leverage break, continue, and functions for better control over execution.
