@@ -1,0 +1,55 @@
+Execution Context : 
+In JavaScript, the Execution Context is a concept used to describe the environment in which code is executed. It determines what data the code has access to and how it behaves. Understanding the execution context is essential to grasp concepts like variable scope, this, and closures.
+
+Types of Execution Contexts -
+-> Global Execution Context (GEC):
+Created when the JavaScript code starts executing.
+Manages global variables, functions, and the this keyword.
+There is only one global execution context in a JavaScript program.
+
+-> Function Execution Context (FEC):
+Created when a function is invoked.
+Manages variables, arguments, and the this keyword specific to the function.
+
+-> Eval Execution Context:
+Created when JavaScript code is executed inside the eval() function.
+
+
+Phases of Execution Context - 
+Each execution context goes through two phases:
+
+1. Creation Phase:
+Memory is allocated for variables and functions.
+The this keyword is initialized.
+Variable Hoisting occurs:
+Function declarations are fully hoisted.
+Variables declared with var are hoisted and initialized to undefined.
+Variables declared with let or const are hoisted but remain in a "temporal dead zone" until the code is executed.
+
+2. Execution Phase:
+The code is executed line by line.
+Variables are assigned values, and functions are invoked.
+
+
+Components of Execution Context - 
+Variable Environment:
+Stores variables and function declarations.
+Includes the outer environment reference for closures.
+
+Lexical Environment:
+Contains identifiers (variables, functions) declared in the current scope and references to its parent scope.
+
+this Binding:
+Defines the value of this depending on how the function is called.
+
+
+Call Stack and Execution Context -
+= JavaScript uses a call stack to manage execution contexts.
+= The Global Execution Context is pushed onto the stack first.
+= When a function is invoked, a new Function Execution Context is created and pushed onto the stack.
+= When a function completes execution, its context is popped off the stack.
+
+Execution Context is the environment where code is executed.
+Every JavaScript program starts with the Global Execution Context.
+Each function call creates a new Function Execution Context.
+The call stack manages execution contexts, ensuring code executes in the correct order.
