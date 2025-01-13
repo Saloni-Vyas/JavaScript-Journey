@@ -1,0 +1,41 @@
+
+HIGHER ORDER ARRAY Loop :
+Higher-order array loops in JavaScript are methods that allow you to iterate over arrays and apply a function to each element. They are considered "higher-order" because they take a function as an argument or return a function. These methods are more expressive and concise than traditional for or while loops.
+
+Common Higher-Order Array Methods -
+
+1. forEach()
+Executes a provided function once for each array element.
+Does not return a new array.
+
+2. map()
+Creates a new array by applying a function to each element of the array.
+Does not modify the original array.
+
+3. filter()
+Creates a new array with elements that pass a test defined in the callback function.
+
+4. reduce()
+Reduces the array to a single value by executing a reducer function on each element.
+Takes an accumulator and the current element as arguments.
+
+5. find()
+Returns the first element that satisfies a provided condition.
+Returns undefined if no element matches.
+
+6. findIndex()
+Returns the index of the first element that satisfies a provided condition.
+Returns -1 if no element matches.
+
+7. some()
+Returns true if at least one element satisfies the provided condition.
+
+8. every()
+Returns true if all elements satisfy the provided condition.
+
+9. sort()
+Sorts the elements of the array in place.
+By default, sorts as strings. Custom comparator functions can be provided.
+
+10. flatMap()
+Maps each element to a new array and then flattens the result into a single array.
