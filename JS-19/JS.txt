@@ -1,0 +1,65 @@
+DOM :
+The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a webpage as a tree of objects, allowing JavaScript to interact with, manipulate, and update the content, structure, and styling of a webpage dynamically.
+
+What is the DOM?
+Hierarchy: The DOM represents an HTML or XML document as a hierarchical tree structure where each node is an object.
+Node Types:
+Document Node: Represents the entire document (document object).
+Element Nodes: Represent HTML elements like <div>, <p>, <img>.
+Attribute Nodes: Represent attributes of elements, like class or id.
+Text Nodes: Represent the text inside elements.
+
+Accessing the DOM -
+JavaScript provides several methods to access and interact with DOM elements:
+
+document.getElementById(id):
+Finds an element by its id.
+
+document.getElementsByClassName(className):
+Finds elements by their class name.
+
+document.getElementsByTagName(tagName):
+Finds elements by their tag name.
+
+document.querySelector(selector);
+Finds the first element matching a CSS selector.
+
+
+Manipulating the DOM -
+Once you have accessed a DOM element, you can manipulate it in various ways:
+
+Change Content:
+Using innerHTML or textContent:
+
+Change Attributes:
+Use setAttribute, getAttribute, or directly set properties:
+
+Change Styles:
+Use the style property
+
+Add/Remove Classes:
+Using classList method
+
+
+Event Handling in the DOM -
+You can make your web page interactive by attaching event listeners to elements.
+
+Using addEventListener:
+
+Common Events:
+click: When an element is clicked.
+mouseover: When the mouse hovers over an element.
+keydown: When a key is pressed.
+submit: When a form is submitted.
+
+Inline Events (Not Recommended):
+
+
+
+Traversing the DOM -
+You can navigate through the DOM tree using properties like:
+
+Parent and Child Relationships:
+Sibilings relationship
+First and Last child
+
