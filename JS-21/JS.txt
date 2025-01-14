@@ -1,0 +1,33 @@
+Asynchronous JavaScript Fundamentals - 
+JavaScript is single-threaded, meaning it executes one command at a time in a specific order. However, with asynchronous programming, JavaScript can handle tasks that take time, such as fetching data from an API or reading files, without blocking the main thread. This enables non-blocking, efficient execution.
+
+Synchronous vs. Asynchronous:
+Synchronous: Tasks are executed one after the other, blocking the main thread until each task finishes.
+Asynchronous: Tasks can start and finish independently, allowing other code to execute without waiting.
+
+
+1. Callbacks
+A callback is a function passed as an argument to another function to be executed later.
+
+Drawbacks: Can lead to "callback hell" when callbacks are nested deeply, making code hard to read and maintain.
+
+
+2. Promises
+A Promise represents a value that may be available now, or in the future, or never. It has three states:
+
+Pending: The initial state.
+Fulfilled: The operation was completed successfully.
+Rejected: The operation failed.
+
+
+3. Async/Await
+async/await provides a cleaner syntax for handling promises, making asynchronous code look and behave like synchronous code.
+
+
+
+
+Common Asynchronous Patterns - 
+a. Handling Multiple Promises
+Use Promise.all to run multiple promises in parallel and wait for all of them to resolve.
+b. Race Conditions
+Use Promise.race to resolve or reject as soon as the first promise settles
