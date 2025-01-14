@@ -1,0 +1,48 @@
+Events in JavaScript...
+
+In JavaScript, events are actions or occurrences that happen in the browser, such as a user clicking a button, moving the mouse, submitting a form, or a webpage loading.
+Events allow developers to define interactive behavior by responding to these actions.
+
+Event Types:
+
+- Mouse Events: Triggered by mouse actions.
+click: Fires when an element is clicked.
+dblclick: Fires on double-click.
+mousemove: Fires when the mouse moves over an element.
+mousedown: Fires when the mouse button is pressed.
+mouseup: Fires when the mouse button is released.
+
+- Keyboard Events: Triggered by keyboard actions.
+keydown: Fires when a key is pressed.
+keyup: Fires when a key is released.
+keypress: (Deprecated) Fires when a key is pressed and produces a character.
+
+- Form Events: Triggered by form actions.
+submit: Fires when a form is submitted.
+change: Fires when the value of an input changes.
+focus: Fires when an element gains focus.
+blur: Fires when an element loses focus.
+
+Window Events: Related to the browser window.
+load: Fires when the entire page (including resources) loads.
+resize: Fires when the browser window is resized.
+scroll: Fires when the document is scrolled.
+
+Event Handlers:
+Functions that execute when an event occurs.
+
+Event Listeners:
+A modern way to attach event handlers to elements using the addEventListener method
+
+Event Object:
+Provides information about the event that occurred.
+
+Event Propagation
+Events in JavaScript propagate in two main phases:
+
+Capturing Phase: The event moves from the root element down to the target element.
+Bubbling Phase: The event moves from the target element up to the root element.
+You can control propagation by:
+
+Stopping Propagation: Using event.stopPropagation().
+Preventing Default Behavior: Using event.preventDefault().
