@@ -1,0 +1,24 @@
+API Request in JS....
+
+To make an API request in JavaScript, you can use either the fetch API or XMLHttpRequest. Here’s a simple example using the fetch API,
+which is more modern and commonly used today.
+
+
+--Working with other HTTP methods (PUT, DELETE, etc.)
+You can use the fetch API with other HTTP methods such as PUT (to update resources) and DELETE (to delete resources). The usage is similar to a POST request but with different methods and sometimes different data.
+Key things to note:
+
+-- Handling Errors
+In fetch, errors are only thrown for network-related issues (e.g., no internet connection). HTTP error status codes like 404 (Not Found) or 500 (Internal Server Error) do not automatically trigger an error in fetch. You need to handle these manually by checking response.ok.
+
+GET request: You usually send a GET request to retrieve data from an API.
+POST request: You send data to an API when performing actions like creating, updating, or submitting data.
+Error handling: Use .catch() to handle errors that may occur during the request.
+Headers: If you're sending data (especially JSON), make sure to set the appropriate headers (Content-Type: application/json).
+
+Conclusion
+GET is used to retrieve data.
+POST is used to send data to create or submit resources.
+PUT and DELETE are used for updating and deleting resources respectively.
+Handling Errors: Always check the response status and handle errors appropriately.
+Using async/await: This makes the code more readable and is ideal for handling promises.
