@@ -1,0 +1,16 @@
+PROMISES IN JAVASCRIPT - 
+A Promise in JavaScript is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. Promises allow developers to handle asynchronous operations in a more manageable and readable way, avoiding the complexity of deeply nested callbacks (known as "callback hell").
+
+Key Characteristics of Promises
+States -
+Pending: The initial state; the operation has not completed yet.
+Fulfilled: The operation completed successfully, and the then handler will be called with a value.
+Rejected: The operation failed, and the catch handler will be called with an error.
+
+Methods-
+.then(onFulfilled, onRejected): Executes when the promise is fulfilled or rejected. onFulfilled is called if the promise is resolved, and onRejected is called if it is rejected.
+.catch(onRejected): A shorthand for .then(null, onRejected). Handles errors or rejections.
+.finally(onFinally): Executes a callback once the promise is settled (either fulfilled or rejected).
+
+Creation -
+A promise is created using the Promise constructor, which takes a function with two arguments: resolve and reject.
