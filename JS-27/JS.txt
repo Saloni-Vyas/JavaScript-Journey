@@ -1,0 +1,18 @@
+// CONSTRUCTOR IN CLASS
+In JavaScript, the constructor method is a special function within a class that is automatically invoked when a new instance of the class is created. Its primary role is to initialize the object's properties and set up any necessary state.
+
+Defining a Constructor in a Class:
+To define a constructor, include a constructor method inside your class definition:
+
+Creating Instances:
+You can create new instances of the class using the new keyword:
+
+
+Key Points:
+
+Single Constructor: A class can have only one constructor method. Defining more than one will result in a SyntaxError.
+
+Default Constructor: If no constructor is explicitly defined, JavaScript provides a default constructor.
+
+Inheritance and super(): In derived classes (subclasses), it's essential to call super() within the constructor before accessing this. The super() function calls the parent class's constructor, ensuring the parent is properly initialized.
+
