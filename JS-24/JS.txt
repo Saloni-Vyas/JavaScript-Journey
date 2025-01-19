@@ -1,0 +1,37 @@
+JavaScript is a versatile language that supports object-oriented programming (OOP) through its prototype-based architecture. In OOP, a system is modeled as a collection of objects, each representing a particular aspect of the system. These objects contain both functions (methods) and data, providing a public interface while maintaining their own private, internal state. 
+MDN WEB DOCS
+
+Key Concepts of Object-Oriented Programming in JavaScript:
+
+Objects and Properties:
+
+Objects in JavaScript are collections of properties, where each property is a key-value pair. Properties can be both data (attributes) and functions (methods). Objects can be created using object literals or constructor functions. 
+WIKIPEDIA
+Prototypes and Inheritance:
+
+JavaScript uses prototypes to define object properties, including methods and inheritance. Each object has a prototype, and objects can inherit properties and methods from their prototypes, enabling code reuse and the creation of complex hierarchies. 
+WIKIPEDIA
+Encapsulation:
+
+Encapsulation involves bundling data and methods that operate on that data within a single unit, typically an object. This concept helps in hiding the internal state of the object from the outside, exposing only selected interfaces. 
+HONEYBADGER
+Abstraction:
+
+Abstraction allows developers to handle complexity by hiding unnecessary details and showing only the essential features of an object. In JavaScript, this can be achieved using objects and functions to create simplified models of complex real-world entities. 
+HONEYBADGER
+Polymorphism:
+
+Polymorphism enables objects to be treated as instances of their parent class rather than their actual class. This allows methods to behave differently based on the object's actual type, providing flexibility in code execution. 
+
+
+
+Implementing OOP in JavaScript:
+
+Constructor Functions:
+
+Functions can serve as constructors to create multiple similar objects. By convention, constructor function names start with an uppercase letter. The new keyword is used to create an instance of the object.
+javascript
+ 
+ES6 Classes:
+
+Introduced in ES6, the class syntax provides a clearer and more concise way to create objects and handle inheritance. It's syntactic sugar over JavaScript's prototype-based inheritance.
