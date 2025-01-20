@@ -1,0 +1,15 @@
+// GETTER AND SETTER IN STACK OVERFLOW 
+In programming, getters and setters are methods used to access and modify the private properties of a class, respectively. They provide a controlled way to interact with an object's data, allowing for validation, logging, or other processing when properties are accessed or updated.
+
+Getters: Methods that retrieve the value of a private property.
+
+Setters: Methods that set or update the value of a private property.
+
+
+Common Pitfall: Recursive Getter/Setter Calls
+A common issue arises when a getter or setter inadvertently calls itself, leading to infinite recursion and a stack overflow. This can occur if a setter updates a property that triggers the setter again.
+
+Preventing Recursive Calls
+To prevent such issues, ensure that setters do not call themselves or other methods that might trigger them. If additional processing is needed when setting a property, consider using a separate method or restructuring the logic to avoid recursion.
+
+
