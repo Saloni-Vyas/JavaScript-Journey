@@ -1,0 +1,11 @@
+// Bind in JavaScript
+In JavaScript, the bind() method is used to create a new function that, when invoked, has its this keyword set to a specific value, and can also have a sequence of arguments pre-set. This is particularly useful for ensuring that functions retain the correct context when passed around as callbacks or event handlers.
+
+thisArg: The value to which the this keyword should be set when the new function is called.
+arg1, arg2, ...: Optional arguments to prepend to the arguments provided to the bound function when invoking the original function.
+
+In this example, greetHello is a new function where the first argument is pre-set to 'Hello'. When greetHello('Alice') is called, it outputs 'Hello, Alice!'.
+
+Use Cases:
+Function Borrowing: Allows an object to borrow a method from another object without copying.
+Preserving this in Asynchronous Code: Ensures that the correct this context is maintained in asynchronous functions.
