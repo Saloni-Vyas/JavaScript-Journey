@@ -1,0 +1,15 @@
+In JavaScript, lexical scoping and closures are fundamental concepts that govern variable accessibility and function behavior.
+
+Lexical Scoping
+Lexical scoping refers to the visibility and accessibility of variables based on their position within the source code. In JavaScript, a function's scope is determined by its location within the code, and nested functions have access to variables declared in their outer (enclosing) functions. This means that a function can access variables from its own scope, its parent scope, and any other outer scopes.
+
+Closures
+A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope. In other words, closures allow a function to "remember" the environment in which it was created, including variables from its outer functions. This is a powerful feature in JavaScript, enabling data encapsulation and the creation of private variables.
+
+
+
+Key Differences Between Lexical Scoping and Closures -
+
+Lexical Scoping: Determines the accessibility of variables based on their position in the source code. It defines the scope in which variables are accessible.
+
+Closures: Allow functions to access variables from their lexical scope even after the outer function has finished executing. They enable functions to "remember" their creation environment, facilitating data encapsulation and private variables.
