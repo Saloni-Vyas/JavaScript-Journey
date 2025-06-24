@@ -28,3 +28,14 @@ console.log(name); // Alice
 const colors = ["red", "green", "blue"];
 const [first, second] = colors;
 console.log(second); // green
+
+3. Optional Chaining (?.) and Nullish Coalescing (??)
+Why?
+Avoids errors when accessing deeply nested properties.
+
+Provides default values only when null or undefined.
+
+const user = { profile: null };
+
+console.log(user.profile?.name); // undefined (no error)
+console.log(user.profile?.name ?? "Guest"); // Guest
