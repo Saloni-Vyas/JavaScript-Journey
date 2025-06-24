@@ -1,1 +1,15 @@
 TIPS AND TRICKS FOR JAVASCRIPT - 
+
+ 1. Use const and let instead of var
+Why?
+var is function-scoped and can lead to unexpected behavior due to hoisting.
+
+let and const are block-scoped and more predictable.
+
+// Bad
+var name = "Alice";
+
+// Good
+const name = "Alice"; // Use const if value won't change
+let age = 25;          // Use let if value may change
+
