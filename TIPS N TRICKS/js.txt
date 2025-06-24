@@ -39,3 +39,12 @@ const user = { profile: null };
 
 console.log(user.profile?.name); // undefined (no error)
 console.log(user.profile?.name ?? "Guest"); // Guest
+
+ 4. Arrow Functions
+Why?
+Shorter syntax.
+
+this is lexically scoped.
+
+const greet = name => `Hello, ${name}!`;
+console.log(greet("Alice")); // Hello, Alice!
