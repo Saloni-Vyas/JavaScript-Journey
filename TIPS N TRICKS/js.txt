@@ -13,3 +13,18 @@ var name = "Alice";
 const name = "Alice"; // Use const if value won't change
 let age = 25;          // Use let if value may change
 
+2. Destructuring Objects and Arrays
+Why?
+Cleaner and more readable code.
+
+Easier extraction of properties or elements.
+
+// Object Destructuring
+const user = { name: "Alice", age: 25 };
+const { name, age } = user;
+console.log(name); // Alice
+
+// Array Destructuring
+const colors = ["red", "green", "blue"];
+const [first, second] = colors;
+console.log(second); // green
