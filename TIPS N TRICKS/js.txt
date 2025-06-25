@@ -48,3 +48,8 @@ this is lexically scoped.
 
 const greet = name => `Hello, ${name}!`;
 console.log(greet("Alice")); // Hello, Alice!
+
+ 5. Short-circuit Evaluation
+ let username = null;
+let displayName = username || "Guest";
+console.log(displayName);  // "Guest"
