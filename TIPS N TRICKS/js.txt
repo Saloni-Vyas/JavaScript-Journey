@@ -63,3 +63,8 @@ console.log(a, b); // 10 20
 let person = { name: "Priyanshu", age: 22 };
 let { name, age } = person;
 console.log(name);  // "Priyanshu"
+
+ 7. Template Literals
+let name = "Harsh";
+let message = `Hello, ${name}!`;
+console.log(message);  // "Hello, Harsh!"
