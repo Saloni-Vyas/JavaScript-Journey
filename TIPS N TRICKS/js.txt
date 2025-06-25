@@ -53,3 +53,13 @@ console.log(greet("Alice")); // Hello, Alice!
  let username = null;
 let displayName = username || "Guest";
 console.log(displayName);  // "Guest"
+
+ 6. Destructuring Assignment
+ // Array Destructuring
+let [a, b] = [10, 20];
+console.log(a, b); // 10 20
+
+// Object Destructuring
+let person = { name: "Priyanshu", age: 22 };
+let { name, age } = person;
+console.log(name);  // "Priyanshu"
