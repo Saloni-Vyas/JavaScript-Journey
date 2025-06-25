@@ -68,3 +68,8 @@ console.log(name);  // "Priyanshu"
 let name = "Harsh";
 let message = `Hello, ${name}!`;
 console.log(message);  // "Hello, Harsh!"
+
+ 8. Optional Chaining 
+ let user = { profile: { email: "a@example.com" } };
+console.log(user.profile?.email);  // "a@example.com"
+console.log(user.address?.city);   // undefined (no error)
