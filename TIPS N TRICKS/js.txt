@@ -73,3 +73,11 @@ console.log(message);  // "Hello, Harsh!"
  let user = { profile: { email: "a@example.com" } };
 console.log(user.profile?.email);  // "a@example.com"
 console.log(user.address?.city);   // undefined (no error)
+
+ 9. Nullish Coalescing
+ let count = 0;
+console.log(count ?? 100);  // 0
+let result = null;
+console.log(result ?? "Not Available");  // "Not Available"
+
+ 10. 
