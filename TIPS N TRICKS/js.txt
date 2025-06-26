@@ -88,3 +88,7 @@ console.log(arr2); // [1, 2, 3, 4]
 let obj1 = { a: 1 };
 let obj2 = { ...obj1, b: 2 };
 console.log(obj2); // { a: 1, b: 2 }
+
+11. Arrow Functions Simplified
+const add = (a, b) => a + b;
+console.log(add(5, 3)); // 8
