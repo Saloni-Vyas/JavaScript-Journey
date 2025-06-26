@@ -80,4 +80,11 @@ console.log(count ?? 100);  // 0
 let result = null;
 console.log(result ?? "Not Available");  // "Not Available"
 
- 10. 
+ 10. Spread Operator ...
+ let arr1 = [1, 2];
+let arr2 = [...arr1, 3, 4];
+console.log(arr2); // [1, 2, 3, 4]
+
+let obj1 = { a: 1 };
+let obj2 = { ...obj1, b: 2 };
+console.log(obj2); // { a: 1, b: 2 }
