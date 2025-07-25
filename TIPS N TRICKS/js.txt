@@ -96,6 +96,7 @@ console.log(add(5, 3)); // 8
 
 
 
+
 12. Convert String to Number Quickly
 let str = "42";
 console.log(+str);  // 42 (number)
